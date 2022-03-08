@@ -1,0 +1,47 @@
+[
+   {
+      "nimetus": "PRAED",
+      "toidud": [
+         {
+            "nimetus": "Kook",
+            "hind": "20",
+            "lisainfo": "Kana, muna, pool piima"
+         },
+         {
+            "nimetus": "Toidu nimetus",
+            "hind": "50",
+            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+         }
+      ]
+   },
+   {
+      "nimetus": "SUPID",
+      "toidud": [
+         {
+            "nimetus": "Toidu nimetus",
+            "hind": "Toidu hind",
+            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+         }
+      ]
+   },
+   {
+      "nimetus": "MAGUSTOIDUD",
+      "toidud": [
+         {
+            "nimetus": "Toidu nimetus",
+            "hind": "Toidu hind",
+            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+         }
+      ]
+   },
+   {
+      "nimetus": "JOOGID",
+      "toidud": [
+         {
+            "nimetus": "Toidu nimetus",
+            "hind": "Toidu hind",
+            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+         }
+      ]
+   }
+]
