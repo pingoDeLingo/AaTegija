@@ -7,11 +7,12 @@ import re
 url = "http://192.168.22.172/menu-example/"
 sisu = requests.get(url).text
 doc = BeautifulSoup(sisu, "html.parser")
-toidud = []
+json_data = []
 lisainfo_json = []
 hinnad_json = []
 pealkirjad_json = []
 nimetused_json = []
+
 
 reLink = urlopen("http://192.168.22.172/menu-example/")
 baidid = reLink.read()
@@ -40,15 +41,20 @@ lisainfo = doc.select("small")
 for info in lisainfo:
     lisainfo_json.append(info.text)
     
+# json_data.append({"nimetus": "PRAED", "toidud": []})
+# json_data.append({"nimetus": "SUPID", "toidud": []})
+# json_data.append({"nimetus": "MAGUSTOIDUD", "toidud": []})
+# json_data.append({"nimetus": "JOOGID", "toidud": []})
+for i in range(0, len(nimetused_json)):
     
-for i in range(11):
     toit = {
             "nimetus": nimetused_json[i],
             "hind": hinnad_json[i],
             "lisainfo": lisainfo_json[i]
             
 }
+    json_data.append(toit)
 
-    json_object = json.dumps(toit, indent=4, separators = (",", ": "))
-    with open("sample.json", "a") as outfile:
-        outfile.write(json_object)
+
+    with open("sample.json", "w") as f:
+        json.dump(json_data, f, indent=4)
