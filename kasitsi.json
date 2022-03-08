@@ -3,14 +3,14 @@
       "nimetus": "PRAED",
       "toidud": [
          {
-            "nimetus": "Kook",
-            "hind": "20",
-            "lisainfo": "Kana, muna, pool piima"
+            "nimetus": "Ahjušašlõkk",
+            "hind": "3,80",
+            "lisainfo": "Sašlõk,löisand, kaste, salat"
          },
          {
-            "nimetus": "Toidu nimetus",
-            "hind": "50",
-            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+            "nimetus": "Hakklihakotlet juustuga",
+            "hind": "3,40",
+            "lisainfo": "Hakklihakotlet, lisand,kaste,salat,leib"
          }
       ]
    },
@@ -18,9 +18,9 @@
       "nimetus": "SUPID",
       "toidud": [
          {
-            "nimetus": "Toidu nimetus",
-            "hind": "Toidu hind",
-            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+            "nimetus": "Frikadellisupp",
+            "hind": "1,40",
+            "lisainfo": "supp, leib"
          }
       ]
    },
@@ -28,9 +28,9 @@
       "nimetus": "MAGUSTOIDUD",
       "toidud": [
          {
-            "nimetus": "Toidu nimetus",
-            "hind": "Toidu hind",
-            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+            "nimetus": "Kohupiimakreem ananassidega",
+            "hind": "1,40",
+            "lisainfo": ""
          }
       ]
    },
@@ -38,9 +38,9 @@
       "nimetus": "JOOGID",
       "toidud": [
          {
-            "nimetus": "Toidu nimetus",
-            "hind": "Toidu hind",
-            "lisainfo": "Täpsustatav info toidu kohta - võib olla ka tühjana"
+            "nimetus": "Mahl",
+            "hind": "0,61",
+            "lisainfo": ""
          }
       ]
    }
